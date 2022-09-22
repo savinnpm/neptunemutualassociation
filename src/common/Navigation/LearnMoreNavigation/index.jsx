@@ -14,15 +14,17 @@ const LearnMoreNavigation = () => (
         <div className="block md:hidden">
           <NMALogoSmall />
         </div>
-        <p className="uppercase text-xxs text-white text-center font-bold tracking-wider mt-2">
+        <p className="mt-2 font-bold tracking-wider text-center text-white uppercase text-xxs">
           Neptune Mutual
           <br /> Association
         </p>
       </div>
     </Link>
-    <div className="mr-4 md:mr-12 mt-8 md:mt-12 cursor-pointer">
+    <div className="mt-8 mr-4 cursor-pointer md:mr-12 md:mt-12">
       <Link href="/">
-        <Cross />
+        <div>
+          <Cross />
+        </div>
       </Link>
     </div>
   </div>

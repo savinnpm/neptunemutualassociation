@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import "tailwindcss/tailwind.css";
+import "@fontsource/poppins/latin.css";
+
+import Popup from "@/common/Popup";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Popup />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

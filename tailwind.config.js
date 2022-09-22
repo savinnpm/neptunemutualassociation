@@ -7,6 +7,9 @@ module.exports = {
       black: "#000",
       white: "#ffffff",
     },
+    fontFamily: {
+      poppins: "Poppins, sans-serif",
+    },
     extend: {
       backgroundImage: {
         "home-bg": "url('/backgrounds/home.png')",
