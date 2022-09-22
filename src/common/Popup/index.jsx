@@ -71,7 +71,10 @@ const Popup = () => {
           <p>
             This website uses cookies to give our users the best experience. You
             can manage your settings below or find out by reading our{" "}
-            <Link href="/privacy-policy">Privacy Policy</Link>.
+            <Link href="/privacy-policy">
+              <a className="hover:underline text-421FC2">Privacy Policy</a>
+            </Link>
+            .
           </p>
         </div>
         <div className="text-right">

@@ -5,8 +5,8 @@ const PrivacyPage = () => {
   return (
     <div className="w-full h-auto bg-center bg-no-repeat bg-cover bg-learn-bg-small lg:bg-learn-bg ">
       <LearnMoreNavigation />
-      <div className="mx-4 mt-8 text-white border-t border-white md:mx-learn-more-md lg:mx-learn-more min-h-content">
-        <h3>Privacy Policy</h3>
+      <div className="mx-4 mt-8 mb-4 text-white border-t border-white md:mx-learn-more-md lg:mx-learn-more min-h-content">
+        <h3 className="text-2xl font-bold">Privacy Policy</h3>
         <p className="mt-8">
           WITH THE FOLLOWING STATEMENT, WE COMPLY WITH OUR STATUTORY DUTY TO
           INFORM YOU ABOUT THE STORAGE OF DATA, THE TYPE OF DATA, THEIR PURPOSE
