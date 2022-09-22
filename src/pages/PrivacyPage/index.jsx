@@ -5,8 +5,8 @@ const PrivacyPage = () => {
   return (
     <div className="w-full h-auto bg-center bg-no-repeat bg-cover bg-learn-bg-small lg:bg-learn-bg ">
       <LearnMoreNavigation />
-      <div className="mx-4 mt-8 mb-4 text-white border-t border-white md:mx-learn-more-md lg:mx-learn-more min-h-content">
-        <h3 className="text-2xl font-bold">Privacy Policy</h3>
+      <div className="pb-8 mx-4 mt-8 text-white border-t border-white md:mx-learn-more-md lg:mx-learn-more min-h-content">
+        <h3 className="mt-4 text-2xl font-bold">Privacy Policy</h3>
         <p className="mt-8">
           WITH THE FOLLOWING STATEMENT, WE COMPLY WITH OUR STATUTORY DUTY TO
           INFORM YOU ABOUT THE STORAGE OF DATA, THE TYPE OF DATA, THEIR PURPOSE
@@ -32,12 +32,12 @@ const PrivacyPage = () => {
           website you visit before supplying Personal Information through that
           website.
         </p>
-        <h5 className="text-xl font-bold">
+        <h5 className="mt-8 text-xl font-bold">
           What information does Neptune Mutual Association collect through its
           public website, or other interactions, and how is this information
           used?
         </h5>
-        <p>
+        <p className="">
           Neptune Mutual Association may collect certain Personal Information
           through its website when you choose to submit such information to us
           through email, an online form or other method. This includes Personal
@@ -222,7 +222,7 @@ const PrivacyPage = () => {
           cookies) you may not be able to access all or parts of our site.
         </p>
         <h5 className="mt-8 text-xl font-bold">Data Security</h5>
-        <p className="mt-4">
+        <p>
           We take all necessary technical and organizational security measures
           to store your personal data so that it is not accessible to third
           parties or the public. If you would like to contact us by e-mail, we
@@ -235,7 +235,7 @@ const PrivacyPage = () => {
         </p>
 
         <h5 className="mt-8 text-xl font-bold">Duration of Data Storage</h5>
-        <p className="mt-4">
+        <p>
           The data collected will be stored by us as long as necessary for the
           performance of the contracts we have entered into, or you have not
           exercised your right to cancellation or your right to transfer data to
