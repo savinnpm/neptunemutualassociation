@@ -71,7 +71,7 @@ const Popup = () => {
           <p>
             This website uses cookies to give our users the best experience. You
             can manage your settings below or find out by reading our{" "}
-            <Link href="/privacy">Privacy Policy</Link>.
+            <Link href="/privacy-policy">Privacy Policy</Link>.
           </p>
         </div>
         <div className="text-right">
