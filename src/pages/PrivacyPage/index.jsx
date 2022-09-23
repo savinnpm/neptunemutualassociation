@@ -6,7 +6,7 @@ const PrivacyPage = () => {
     <div className="w-full h-auto bg-center bg-no-repeat bg-cover bg-learn-bg-small lg:bg-learn-bg ">
       <LearnMoreNavigation />
       <div className="pb-8 mx-4 mt-8 text-white border-t border-white md:mx-learn-more-md lg:mx-learn-more min-h-content">
-        <h3 className="mt-4 text-2xl font-bold">Privacy Policy</h3>
+        <h3 className="mt-4 text-2xl ">Privacy Policy</h3>
         <p className="mt-8">
           WITH THE FOLLOWING STATEMENT, WE COMPLY WITH OUR STATUTORY DUTY TO
           INFORM YOU ABOUT THE STORAGE OF DATA, THE TYPE OF DATA, THEIR PURPOSE
@@ -208,11 +208,6 @@ const PrivacyPage = () => {
           cookies.
         </p>
         <p className="mt-4">
-          We use Google Analytics. For information on how Google processes and
-          collects your information in regard to this product and how you can
-          opt-out, please see here.
-        </p>
-        <p className="mt-4">
           Most internet browsers are automatically set up to accept cookies.
           However, you can block cookies by activating the setting on your
           browser that allows you to refuse the setting of all or some cookies.
@@ -279,7 +274,7 @@ const PrivacyPage = () => {
           <Link href="mailto:info@neptunemutualassocation.org">
             info@neptunemutualassocation.org
           </Link>{" "}
-          . We are committed to dealing with all questions promptly.
+          We are committed to dealing with all questions promptly.
         </p>
       </div>
     </div>
